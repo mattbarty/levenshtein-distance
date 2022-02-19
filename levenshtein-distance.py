@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def levenshtein(string1: str, string2: str, *, matrix=False):
+def levenshtein(string1: str, string2: str, *, matrix=False) -> int:
     """Levenshtein distance is a string metric for measuring the difference between two sequences.
     Informally, the Levenshtein distance between two words is the minimum number of single-character edits 
     (insertions, deletions or substitutions) required to change one word into the other. 
